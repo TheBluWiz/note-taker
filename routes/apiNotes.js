@@ -11,12 +11,13 @@ apiNotes.get('/notes', (req, res) => {
 
 // POST Route for a new UX/UI tip
 apiNotes.post('/notes', (req, res) => {
-  console.info(`${req.method} request received to add a tip`);
-  console.log(req.body);
+  console.info(`${req.method} request received to add a note`);
 
-  const { title, text } = req.body;
+  
 
   if (req.body) {
+    const { title, text } = req.body;
+    
     const newNote = {
       title,
       text,

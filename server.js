@@ -8,7 +8,7 @@ const PORT = 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use("/api/", notes);
+app.use("/api", notes);
 
 app.use(express.static('public'));
 
