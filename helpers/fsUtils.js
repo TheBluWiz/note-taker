@@ -37,6 +37,11 @@ const readAndDelete = (content, file) => {
     } else {
       const parsedData = JSON.parse(data);
       const editedData = parsedData.filter(note => note.id != content);
+      if (editedData.length < 1) editedData.push({
+        "title": "Add Notes Below",
+        "text": "At least one note is required. Add more notes below to delete me.",
+        "id": "e01f81e7-eb54-49db-9970-99191cd04b45"
+    })
       writeToFile(file, editedData)
       return parsedData
     }
