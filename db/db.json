@@ -1,22 +1,7 @@
 [
     {
-        "title": "Test1",
-        "text": "This is another test",
-        "note": "74790204-4ba9-44eb-9a6a-a86f5c43e28c"
-    },
-    {
-        "title": "test2",
-        "text": "This is a test",
-        "note": "5a33128b-e644-4ac3-9adb-5c41748197f8"
-    },
-    {
-        "title": "test3",
-        "text": "yes",
-        "note": "fbcbc3db-f427-488a-81be-b3dd7079f530"
-    },
-    {
-        "title": "test4",
-        "text": "nope",
-        "note": "f639e46e-e7e0-4e6f-90e2-8381a07ea9f4"
+        "title": "Test 1",
+        "text": "This is my first note",
+        "id": "e01f81e7-eb54-49db-9970-99191cd04b45"
     }
 ]
