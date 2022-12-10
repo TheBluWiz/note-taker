@@ -17,7 +17,7 @@ apiNotes.post('/notes', (req, res) => {
 
   if (req.body) {
     const { title, text } = req.body;
-    
+
     const newNote = {
       title,
       text,
@@ -30,5 +30,13 @@ apiNotes.post('/notes', (req, res) => {
     res.error('Error in adding note');
   }
 });
+
+apiNotes.delete('./notes', (req, res) => {
+  console.info(`${req.method} request received to delete note`);
+  if (req.body) {
+    console.log(req.body)
+  }
+  res.send('Delete Request Confirmed')
+})
 
 module.exports = apiNotes;
