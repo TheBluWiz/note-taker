@@ -12,16 +12,26 @@
   ## Installation
   Run 'npm i' from the command line to install dependencies.
   ## Usage
-  The node application is inteneded to be hosted on a server. When a client requests the site, they are also sent all notes stored on the site. Adding or deleting ntoes client-side also updates the server allowing the current notes to be syncronized across multiple clients.
+  The node application is inteneded to be hosted on a server. When a client requests the site, they are also sent all notes stored on the site. Adding or deleting notes client-side also updates the server allowing the current notes to be syncronized across multiple clients.
 
-  To start the server, run node server.js from the projects directory in the command line. 
+  To start the server, run 'node server.js' from the projects directory in the command line. 
   ## Contributing
-  I'm always open to bug fixes or new features. Feel free to fork the repo and send me a pull request with your code. Would also love to collaborate if you have an idea. Feel free to reach out to me at the link in the questions section below.
+  I'm always open to bug fixes or new features. Feel free to fork the repo and send me a pull request with your code. Would also love to collaborate if you have an idea. Reach out to me at the link in the questions section below.
+
+  ## Deployed
+  Check out a deployed example of my site [here](https://note-taker-service.herokuapp.com).
+
+  ![landing-page](./assets/note-taker.png)
+
   ## Going Forward
   This application would benefit from security and multi-user functionality. If I revisit this project, I would add objects for individual users and store the notes on a per user basis. From there I would like to implement user validation of some sort to only allow users to view their own notes.
 
   Additionally, grouping notes in folders could be useful and could likely be implemented by further nesting objects to store the notes. 
+
+  Notes should also be updateable. Adding a route that updates them would be a good inclusion.
+
   ## Questions
   If you would like to contact me or view other projects I'm working on, you can explore my repositories at [TheBluWiz](https://github.com/TheBluWiz), or email me at thebluwiz@icloud.com.
+
   ## License
   This project is under the MIT license attached in the repository.
